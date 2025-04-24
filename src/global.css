@@ -6,6 +6,7 @@
   --color-primary: rgb(111,66,193);
   --color-primary-dark: rgb(54, 32, 95);
   --color-secondary: rgb(40,167,69);
+  --color-error: rgb(167, 40, 78);
 }
 
 body {
@@ -42,4 +43,20 @@ a {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+/* BOTÓN */
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+  }
 }
