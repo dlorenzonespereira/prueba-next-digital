@@ -9,7 +9,7 @@
     <h2 class="name">{user?.name}</h2>
     <p class="username">@{user?.username}</p>
     <a href="mailto:{user?.email}" class="email">{user?.email}</a>
-    <section class="company">
+    <section>
       <h3 class="company">Empresa</h3>
       <p class="company-name">{user?.company?.name}</p>
       <p class="company-phrase">{user?.company?.catchPhrase}</p>
