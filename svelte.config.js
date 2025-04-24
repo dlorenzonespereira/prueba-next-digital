@@ -11,6 +11,7 @@ const config = {
       $components: 'src/infrastructure/ui/*',
       $domain: 'src/domain/*',
       $infrastructure: 'src/infrastructure/*',
+      $tests: 'src/tests/*',
     },
   },
   compilerOptions: {
