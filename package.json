@@ -1,0 +1,41 @@
+{
+  "name": "prueba-next-digital",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.svelte",
+    "format": "prettier --write .",
+    "test": "vitest --watch",
+    "update": "ncu -i -u"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "5.0.4",
+    "@types/node": "22.14.1",
+    "@typescript-eslint/eslint-plugin": "8.31.0",
+    "@typescript-eslint/parser": "8.31.0",
+    "eslint": "9.25.1",
+    "eslint-plugin-svelte": "3.5.1",
+    "eslint-plugin-vitest-globals": "1.5.0",
+    "npm-check-updates": "18.0.0",
+    "prettier": "3.5.3",
+    "prettier-plugin-svelte": "3.3.3",
+    "postcss": "8.5.3",
+    "postcss-load-config": "6.0.1",
+    "typescript": "5.8.3",
+    "vite": "6.3.2",
+    "vitest": "3.1.2",
+    "vitest-dom": "0.1.1"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-node": "5.2.12",
+    "@sveltejs/kit": "2.20.7",
+    "@sveltejs/vite-plugin-svelte": "5.0.3",
+    "axios": "1.8.4",
+    "svelte": "5.28.2",
+    "svelte-check": "4.1.6"
+  }
+}
