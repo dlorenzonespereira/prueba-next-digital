@@ -43,6 +43,10 @@ Antes de comenzar, asegúrate de tener instalado `pnpm`, un gestor de paquetes r
    ```bash
    pnpm install
    ```
+4. Haz un build del proyecto:
+   ```bash
+   pnpm run build
+   ```
 
 ## Comandos Disponibles
 
