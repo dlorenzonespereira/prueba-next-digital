@@ -1,6 +1,6 @@
 <script lang="ts">
   import { type User } from '$domain/models/User';
-  import UserCard from '$infrastructure/ui/UserCard.svelte';
+  import UserCard from '$components/UserCard.svelte';
 
   export let users: User[];
 </script>
