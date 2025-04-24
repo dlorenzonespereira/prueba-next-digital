@@ -21,7 +21,7 @@
     box-shadow: var(--shadow);
 
     & a {
-      color: var(--color-main);
+      color: var(--color-primary);
       text-decoration: none;
       font-size: 1.5rem;
       font-weight: 600;
