@@ -13,6 +13,7 @@
     "update": "ncu -i -u"
   },
   "devDependencies": {
+    "@testing-library/svelte": "5.2.7",
     "@tsconfig/svelte": "5.0.4",
     "@types/node": "22.14.1",
     "@typescript-eslint/eslint-plugin": "8.31.0",
