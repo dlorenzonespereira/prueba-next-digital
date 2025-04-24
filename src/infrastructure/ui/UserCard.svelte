@@ -15,7 +15,7 @@
       <p class="company-phrase">{user?.company?.catchPhrase}</p>
     </section>
   </div>
-  <a class="details" href="/user/{user?.id}">Ver detalles</a>
+  <a class="button" href="/user/{user?.id}">Ver detalles</a>
 </article>
 
 <style lang="postcss">
@@ -61,20 +61,8 @@
       font-style: italic;
     }
 
-    & .details {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 8px 16px;
-      background-color: var(--color-primary);
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
+    & .button {
       width: 100%;
-      text-align: center;
-
-      &:hover {
-        background-color: var(--color-primary-dark);
-      }
     }
   }
 </style>
