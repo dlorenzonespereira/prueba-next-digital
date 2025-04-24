@@ -9,4 +9,4 @@
   <title>Listado de usuarios</title>
 </svelte:head>
 
-<UsersList users={data.users} />
+<UsersList users={data?.users} />
