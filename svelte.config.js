@@ -12,6 +12,7 @@ const config = {
       $domain: 'src/domain/*',
       $infrastructure: 'src/infrastructure/*',
       $tests: 'src/tests/*',
+      $config: 'src/config',
     },
   },
   compilerOptions: {
