@@ -6,16 +6,16 @@
 
 <article class="user-card">
   <div>
-    <h2 class="name">{user.name}</h2>
-    <p class="username">@{user.username}</p>
-    <a href="mailto:{user.email}" class="email">{user.email}</a>
+    <h2 class="name">{user?.name}</h2>
+    <p class="username">@{user?.username}</p>
+    <a href="mailto:{user?.email}" class="email">{user?.email}</a>
     <section class="company">
       <h3 class="company">Empresa</h3>
-      <p class="company-name">{user.company.name}</p>
-      <p class="company-phrase">{user.company.catchPhrase}</p>
+      <p class="company-name">{user?.company?.name}</p>
+      <p class="company-phrase">{user?.company?.catchPhrase}</p>
     </section>
   </div>
-  <a class="details" href="/user/{user.id}">Ver detalles</a>
+  <a class="details" href="/user/{user?.id}">Ver detalles</a>
 </article>
 
 <style lang="postcss">
